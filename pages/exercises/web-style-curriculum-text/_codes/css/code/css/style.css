@@ -1,0 +1,54 @@
+/* Definindo a cor, tipo e tamanho de fonte para todo o documento */
+body {
+    color: darkslategrey;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+  }
+  
+  /* Definindo o tamanho de fonte e a classe para o título h1 */
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /* Definindo o tamanho de fonte, a cor de plano de fundo e a classe para o título h2 */
+  h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+  }
+  h1, h2 {
+    color: darkblue;
+  }
+  
+  a, a:visited {
+    color: darkblue;
+  }  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  h1 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1 a:hover {
+    color: darkblue;
+    text-decoration: underline;
+  }
+  
+  h2 a {
+    color: lightskyblue;
+    text-decoration: none;
+  }
+  
+  h2 a:hover {
+    color: darkblue;
+    text-decoration: underline;
+  }
+  #footer {
+    text-align: center;
+  }
